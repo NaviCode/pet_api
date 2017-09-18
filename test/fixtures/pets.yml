@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  health: 1
+  fitness: 1
+  lastFed: 2017-09-18 11:27:42
+  hunger: 1
+  user_id: 1
+
+two:
+  name: MyString
+  health: 1
+  fitness: 1
+  lastFed: 2017-09-18 11:27:42
+  hunger: 1
+  user_id: 1
