@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :pets
+      get 'addHunger' => 'pets#addHunger'
+      get 'addFitness'=> 'pets#addFitness'
       resources :users
     end
   end

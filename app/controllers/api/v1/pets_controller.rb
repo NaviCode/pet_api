@@ -8,7 +8,18 @@ module Api
         @pets = Pet.all
         render json: @pets
       end
-    
+      def addHunger
+        p = Pet.first
+        p.hunger += 2
+        p.save
+        render json: {added_hunger:true}
+      end
+      def addFitness
+        p = Pet.first
+        p.fitness += 2
+        p.save
+        render json: {added_fitness: true}
+      end
       # GET /pets/1
       def show
         render json: @pet
