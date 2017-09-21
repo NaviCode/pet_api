@@ -26,6 +26,7 @@ gem 'puma', '~> 3.0'
 
 group :production do
   gem 'pg'
+  gem 'rack-cors', :require => 'rack/cors'
 end
 
 group :development, :test do
