@@ -1,5 +1,5 @@
 class Pet < ApplicationRecord
-    before_create :set_time
+    # before_create :set_time
     belongs_to :user
 
     def set_time

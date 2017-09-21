@@ -47,7 +47,7 @@ module Api
     
         # Only allow a trusted parameter "white list" through.
         def pet_params
-          params.require(:pet).permit(:name, :health, :fitness, :lastFed, :hunger, :user_id)
+          params.require(:pet).permit(:name, :health, :fitness, :lastFed, :hunger, :user_id,:lastPlayed),
         end
     end    
   end  
